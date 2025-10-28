@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background-color: #f7f6f8;
+}
+
+.logo {
+  color: #f43684;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: #f43684;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.hero-image {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.circle {
+  position: absolute;
+  right: 15%;
+  bottom: 100px;
+  background: #f43684;
+  color: white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transform: rotate(-10deg);
+  font-size: 14px;
+}
+
+/* Product Section */
+.product {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f8f8;
+}
+
+.product h4 {
+  color: #555;
+  letter-spacing: 1px;
+}
+
+.product h2 {
+  color: #d81b60;
+  margin-top: 10px;
+}
+
+.product p {
+  color: #666;
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c6ce00;
+  padding: 25px 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  background-color: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+}
+.product {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.product h4 {
+  color: #555;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.product img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.product h2 {
+  color: #d81b60;
+  margin: 20px 0 10px 0;
+  font-size: 28px;
+}
+
+.product p {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 16px;
+}
