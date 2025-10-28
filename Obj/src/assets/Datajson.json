@@ -1,0 +1,17 @@
+{
+    "products":[
+        {
+            "name":"Trousers",
+            "price":"2500"
+        },{
+            "name":"shirt",
+            "price":"500" 
+        },{
+             "name":"tops",
+            "price":"200"
+        },{
+             "name":"T-Shirts",
+            "price":"500"
+        }
+    ]
+}
