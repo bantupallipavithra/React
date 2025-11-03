@@ -1,0 +1,92 @@
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #e3f2fd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a237e;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #0d47a1;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #1565c0;
+}
+
+
+.counter-box {
+  width: 320px;
+  margin: 50px auto;
+  background: #fff9c4;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #4e342e;
+}
+
+.count-text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.increment {
+  background-color: #2e7d32;
+}
+.increment:hover {
+  background-color: #388e3c;
+}
+
+.decrement {
+  background-color: #c62828;
+}
+.decrement:hover {
+  background-color: #d32f2f;
+}
+
+.reset {
+  background-color: #0277bd;
+}
+.reset:hover {
+  background-color: #0288d1;
+}
